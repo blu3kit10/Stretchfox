@@ -1,0 +1,10 @@
+.tab-background {
+  border-radius: 0px !important;
+  margin-block: 1px 0 !important;
+}
+
+.tabbrowser-tab[fadein]:not([pinned]):not([style*="max-width"])
+{
+  padding: 0px !important;
+	max-width: 100vw !important;
+}
